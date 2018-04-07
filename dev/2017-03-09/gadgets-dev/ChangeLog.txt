@@ -1,0 +1,35 @@
+ChangeLog for nmAdmin Package: 2017-02-28  Bill Newman  <williamnewman@gmail.com>
+
+This is an informal changelog, a summary of changes in each version and between.
+Changes are categorized as Change, Fix, Sec (Security Issue) or Feature.
+
+Version 2.22 (2017-02-28)
+[Change] Removes header.php and footer.php
+
+Version 2.21 (2015-12-07)
+[Fix] Fixes broken admin_edit.php & admin_reset.php pages
+
+Version 2.2 (2015-12-02)
+[Change] Updates forms to HTML5 validation
+[Change] Removes stored names of pages in config file
+[Change] Moves files to same folder as app, no sub-folder
+[Fix] mysql classic functions removed in favor of mysqli
+
+Version 2.104 (2013-03-11)
+(No changes, just cleanup)
+
+Version 2.104(2012-06-09)
+[Fix] Cleaned up admin_only_inc.php - had references to ADMIN_LOGIN constant
+[Fix] Cleaned up admin_validate.php - had references to ADMIN_LOGIN constant
+
+
+Version 2.103(2012-06-04)
+[Fix] Cleaned up and updated admin_add.php, admin_edit.php & admin_reset.php to include new feedback()
+[Sec] Added session_destroy() to main login page as session was necessary for feedback()
+[Change] Rebuilt & renamed log files to remove "error" as some files will be benchmarking
+
+(For versions prior to 2.103 view dependent project, nmCommon, change log for parallel development)
+
+To Do:
+* Lost Password Feature
+* Intrusion Detection Feature (email, shut down, lock via config file?)
