@@ -1,0 +1,31 @@
+body.Sunday {
+    background-color:red;
+}
+
+body.Monday {
+    background-color:yellow;
+}
+
+body.Tuesday {
+    background-color:pink;
+}
+
+body.Wednesday {
+    background-color:forestgreen;
+}
+
+body.Thursday {
+    background-color:mediumpurple;
+}
+
+body.Friday {
+    background-color:mediumblue;
+}
+
+body.Saturday {
+    background-color:grey;
+}
+
+body.default {
+    background-color:orchid;
+}
